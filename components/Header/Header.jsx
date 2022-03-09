@@ -1,5 +1,6 @@
 import ArrowButton from "../ArrowButton/ArrowButton"
 import Link from "next/link"
+import Image from "next/image"
 function Header({ isBackHeader }) {
 
   const Logo = () => (
@@ -27,7 +28,17 @@ function Header({ isBackHeader }) {
       <section>
         <Link href="">
           <a>
-
+            <Image priority width={26} height={26} src="/icons/githubIcon.svg" alt="Github Icon svg David Alonso Ruiz Darito" />
+          </a>
+        </Link>
+        <Link href="">
+          <a>
+            <Image priority width={26} height={26} src="/icons/twitterIcon.svg" alt="Twitter Icon svg David Alonso Ruiz Darito" />
+          </a>
+        </Link>
+        <Link href="">
+          <a>
+            <Image priority width={26} height={26} src="/icons/linkedinIcon.svg" alt="linkedin Icon svg David Alonso Ruiz Darito" />
           </a>
         </Link>
       </section>
