@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Darito blogs</title>
         <meta name="description" content="¡Hola! Si quieres ver mis blogs entra aqui. Me llamo David Alonso Ruiz y soy desarrollador web..." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main className={styles.main}>
