@@ -20,28 +20,22 @@ function Header({ isBackHeader }) {
       <section>
         {
           isBackHeader ? (
-            <ArrowButton url={'/'} />
+            <ArrowButton url={"/"} />
           ) : (
             <Logo />
           )
         }
       </section>
       <section>
-        <Link href="">
-          <a>
-            <Image priority width={26} height={26} src="/icons/githubIcon.svg" alt="Github Icon svg David Alonso Ruiz Darito" />
-          </a>
-        </Link>
-        <Link href="">
-          <a>
-            <Image priority width={26} height={26} src="/icons/twitterIcon.svg" alt="Twitter Icon svg David Alonso Ruiz Darito" />
-          </a>
-        </Link>
-        <Link href="">
-          <a>
-            <Image priority width={26} height={26} src="/icons/linkedinIcon.svg" alt="linkedin Icon svg David Alonso Ruiz Darito" />
-          </a>
-        </Link>
+        <a href='https://github.com/Darito97' rel='noopener noreferrer' target='_blank'>
+          <Image priority width={26} height={26} src="/icons/githubIcon.svg" alt="Github Icon svg David Alonso Ruiz Darito" />
+        </a>
+        <a href='https://twitter.com/DaritoAlonso' rel='noopener noreferrer' target='_blank'>
+          <Image priority width={26} height={26} src="/icons/twitterIcon.svg" alt="Twitter Icon svg David Alonso Ruiz Darito" />
+        </a>
+        <a href='https://www.linkedin.com/in/david-alonso-ruiz/' rel='noopener noreferrer' target='_blank'>
+          <Image priority width={26} height={26} src="/icons/linkedinIcon.svg" alt="linkedin Icon svg David Alonso Ruiz Darito" />
+        </a>
       </section>
     </header>
   )
