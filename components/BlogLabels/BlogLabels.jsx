@@ -1,6 +1,6 @@
 function BlogLabels({ labels }) {
 
-  const Label = (value, key) => (
+  const Label = (value) => (
     <li key={key}>#{value}</li>
   )
 

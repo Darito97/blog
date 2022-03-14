@@ -10,7 +10,8 @@ export default function Home() {
         <meta name="description" content="¡Hola! Si quieres ver mis blogs entra aqui. Me llamo David Alonso Ruiz y soy desarrollador web..." />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <Header isBackHeader={true} />
+      <Header isBackHeader={false} />
+
       <Footer />
     </div>
   )
