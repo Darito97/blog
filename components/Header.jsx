@@ -1,4 +1,4 @@
-import ArrowButton from "../ArrowButton/ArrowButton"
+import ArrowButton from "./ArrowButton"
 import Link from "next/link"
 import Image from "next/image"
 function Header({ isBackHeader }) {
