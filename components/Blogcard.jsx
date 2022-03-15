@@ -9,7 +9,7 @@ function Blogcard({ title, imageLink, labels }) {
         <Image className={BlogCardStyles.blogImage}
           layout='fill' src={imageLink} alt={title} />
       </div>
-      <h4>{title}</h4>
+      <h4 className={BlogCardStyles.blogCardTitle}>{title}</h4>
       <BlogLabels labels={labels} />
     </article>
   )
