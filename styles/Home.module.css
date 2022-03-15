@@ -1,8 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+}
 .Blogs {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+
+  width: 100vw;
+  max-width: 800px;
 
   padding: 20px 10px;
 }

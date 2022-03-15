@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Header isBackHeader={false} />
       <main className={styles.Blogs}>
-        <Blogcard title={'Hi'} imageLink={'/images/blogImages/example-image.jpeg'} labels={testLabels} />
+        <Blogcard title={'Hi'} imageLink={'/images/blogImages/example-image.jpeg'} labels={testLabels} path={'/'} />
       </main>
       <Footer />
     </div>
