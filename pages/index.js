@@ -13,10 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header isBackHeader={false} />
-      <main>
+      <main className={styles.Blogs}>
         <Blogcard title={'Hi'} imageLink={'/images/blogImages/example-image.jpeg'} labels={testLabels} />
-        <Footer />
       </main>
+      <Footer />
     </div>
   )
 }
