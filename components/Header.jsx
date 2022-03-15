@@ -1,7 +1,5 @@
 import HeaderStyles from '../styles/Header.module.css'
 import ArrowButton from "./ArrowButton"
-import Link from "next/link"
-import Image from "next/image"
 function Header({ isBackHeader }) {
 
   const Logo = () => (
