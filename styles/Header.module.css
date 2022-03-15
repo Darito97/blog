@@ -27,6 +27,9 @@
   gap: 10px;
 }
 @media only screen and (min-width: 800px) {
+  .Header {
+    padding: 15px 20px;
+  }
   .logoBox {
     height: 40px;
   }
