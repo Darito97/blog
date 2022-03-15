@@ -1,12 +1,10 @@
 function BlogLabels({ labels }) {
 
-  const Label = (value) => (
-    <li key={key}>#{value}</li>
-  )
-
   return (labels ?
     <ul>
-      {labels.map((label, index) => <Label value={label} key={label + index} />)}
+      {
+        labels.map((label, index) => <li key={label + index}>#{label}</li>)
+      }
     </ul>
     : null
   )

@@ -1,0 +1,13 @@
+.blogCard {
+  width: 90vw;
+  height: 300px;
+}
+.boxBlogImage {
+  position: relative;
+
+  width: 90vw;
+  height: 150px;
+}
+.blogImage {
+  object-fit: cover;
+}
