@@ -1,7 +1,42 @@
-.logo {
-  width: 25px;
-  height: 25px;
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 10px;
+}
+.firstSeccion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logoBox {
+  height: 26px;
+}
+.logo,
+.socialPages > a {
+  width: 26px;
+  height: 26px;
 }
 .titlePage {
   font-size: 20px;
+}
+.socialPages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media only screen and (min-width: 800px) {
+  .logoBox {
+    height: 40px;
+  }
+  .logo,
+  .socialPages > a,
+  .socialPages_Icon {
+    width: 40px;
+    height: 40px;
+  }
+  .titlePage {
+    font-size: 40px;
+  }
 }
