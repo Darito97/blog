@@ -4,6 +4,9 @@
   align-items: center;
   gap: 5px;
 
+  max-width: 75%;
+  overflow: hidden;
+
   padding: 0;
   color: #696e76;
 }
