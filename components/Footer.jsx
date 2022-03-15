@@ -1,8 +1,9 @@
+import FooterStyles from '../styles/Footer.module.css'
 function Footer() {
   return (
-    <footer>
+    <footer className={FooterStyles.footer}>
       <hr />
-      <p>Has llegado al final</p>
+      <p className={FooterStyles.footerText}>Has llegado al final</p>
     </footer>
   )
 }
