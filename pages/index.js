@@ -4,8 +4,6 @@ import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
 import Blogcard from '../components/Blogcard'
 export default function Home({ allPostData }) {
-  let testLabels = ['Labels', 'de', 'prueba']
-  console.log(allPostData)
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +17,7 @@ export default function Home({ allPostData }) {
           allPostData ?
             allPostData.map(postData => {
               let labels = postData.labels.split(' ')
-              return <Blogcard key={postData.id} title={postData.title} imageLink={postData.imageLink} labels={labels} path={`/posts/${postData.id}`} />
+              return <Blogcard key={postData.id} title={postData.title} imageLink={postData.imageLink} labels={labels} path={`/blogs/${postData.id}`} />
             })
             : null}
       </main>

@@ -1,0 +1,10 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #000;
+  border-radius: 4px;
+  width: 40px;
+  heigh: 26px;
+}
