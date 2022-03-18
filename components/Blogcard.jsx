@@ -7,7 +7,7 @@ function Blogcard({ title, imageLink, labels, path }) {
   return (
     <article className={BlogCardStyles.blogCard}>
       <div className={BlogCardStyles.boxBlogImage}>
-        <Image className={BlogCardStyles.blogImage}
+        <Image priority className={BlogCardStyles.blogImage}
           layout='fill' src={imageLink} alt={title} />
       </div>
       <h4 className={BlogCardStyles.blogCardTitle}>{title}</h4>
