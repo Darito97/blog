@@ -7,6 +7,20 @@
   max-width: 800px;
   padding: 15px 10px;
 }
+.DownHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100vw;
+  max-width: 800px;
+  padding: 15px 10px;
+}
 .firstSeccion {
   display: flex;
   align-items: center;
