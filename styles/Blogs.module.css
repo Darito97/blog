@@ -1,0 +1,44 @@
+.boxImage {
+  position: relative;
+
+  width: 100vw;
+  height: 200px;
+}
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+.main {
+  padding: 10px;
+}
+.blogTitle {
+  font-size: 30px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+.blogContent {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  .boxImage {
+    position: relative;
+
+    width: 100vw;
+    max-width: 800px;
+    height: 360px;
+  }
+  .main {
+    padding: 20px;
+    max-width: 800px;
+  }
+  .blogTitle {
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .blogContent {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}
