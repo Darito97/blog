@@ -15,7 +15,7 @@ function Header({ isBackHeader }) {
   )
 
   return (
-    <header className={HeaderStyles.Header}>
+    <header className={isBackHeader ? HeaderStyles.DownHeader : HeaderStyles.Header}>
       <section className={HeaderStyles.firstSeccion}>
         {
           isBackHeader ? (
