@@ -8,7 +8,7 @@ import BlogsStyles from '../../styles/Blogs.module.css'
 function Blog({ postData }) {
   const labels = postData.labels.split(' ')
   return (
-    <div>
+    <div className={BlogsStyles.blog}>
       <Head>
         <title>{postData.title}</title>
       </Head>
