@@ -23,6 +23,7 @@
   padding: 15px 10px;
 
   background-color: #fff;
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .firstSeccion {
   display: flex;
@@ -51,6 +52,7 @@
   }
   .DownHeader {
     position: static;
+    box-shadow: none;
   }
   .logoBox {
     height: 40px;
